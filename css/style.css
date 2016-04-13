@@ -162,15 +162,21 @@ h3 {
 }
 
 #apropos p {
-    display: block;
-    margin: 0 auto;
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 24px;
-    max-width: 700px;
-    text-align: justify;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  max-width: 700px;
+  text-align: center;
+}
+#apropos p a{
+  color: inherit;
+  text-decoration: underline;
+}
+#apropos p strong{
+  font-weight: bold;
 }
 
 #sun {
@@ -288,6 +294,7 @@ h3 {
 
 #cloture {
   background: #3fb29d;
+  color: #fff;
 }
 
 #cloture .center-cloture {
@@ -298,6 +305,8 @@ h3 {
 
 #cloture img, hr, span {
   display: inline-block;
+  text-align: left;
+  vertical-align: middle;
 }
 
 #cloture hr {
@@ -307,8 +316,12 @@ h3 {
   width: 1px;
 }
 
-#cloture span {
-  color: #fff;
+#cloture p {
+  margin-bottom: 30px;
+}
+#cloture p a{
+  color: inherit;
+  text-decoration: underline;
 }
 
 #dates {
@@ -419,33 +432,18 @@ h3 {
   float: right;
 }
 
-#campaign-leokz {
-    width: 330px;
-    display: inline-block;
-
-}
-
-#campaign-video {
-    display: inline-block;
-}
-
-#campaign-video iframe {
-    height: 350px;
-    width: 600px;
-}
-
-#sign-up {
-  background: #d06c50;
+#inscription {
+  background: #477BC7;
   padding-bottom: 45px;
 }
 
-#sign-up .ctBall {
+#inscription .ctBall {
   float: left;
   width: 100px;
   margin: 0px 30px;
 }
 
-#sign-up .ball {
+#inscription .ball {
   margin: 10px;
   display: table;
   border-radius: 100px;
@@ -458,7 +456,7 @@ h3 {
   font-weight: bold;
 }
 
-#sign-up .line.one {
+#inscription .line.one {
   position: absolute;
   left: 384px;
   width: 62px;
@@ -469,7 +467,7 @@ h3 {
   transform: rotate(-20deg);
 }
 
-#sign-up .line.two {
+#inscription .line.two {
   position: absolute;
   left: 519px;
   width: 60px;
@@ -480,14 +478,19 @@ h3 {
   transform: rotate(15deg);
 }
 
-#sign-up .middle {
+#inscription .middle {
   display: table-cell;
   vertical-align: middle;
 }
 
-#sign-up .sign-center {
+#inscription .sign-center {
   margin: 0 auto;
   margin-bottom: 30px;
+}
+
+#reglement iframe{
+  margin: auto;
+  max-width: 100%;
 }
 
 #partenairs {
@@ -495,11 +498,11 @@ h3 {
   background: #f5f5f5;
 }
 
-#partenairs-div, #campaign-div {
+#partenairs-div, #reglement-div {
   text-align: center;
 }
 
-#partenairs-h3, #campaign-h3 {
+#partenairs-h3, #reglement-h3 {
   color: #666;
 }
 
@@ -598,14 +601,10 @@ h3 {
   color: #455e70;
 }
 
-.leokz {
-  color: #fff;
-  font-size: 14px;
-  float: left;
-}
-
 span.first-name {
   color: #fff;
+  vertical-align: baseline;
+  margin-right: 5px;
 }
 
 @media screen and (max-width: 640px) {
@@ -633,10 +632,5 @@ span.first-name {
   #dates .lineP {
     margin-top: 164px;
     height: 700px;
-  }
-
-  #campaign-video iframe {
-    width: 400px;
-    height: 200px;
   }
 }
