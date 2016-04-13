@@ -611,7 +611,7 @@ span.first-name {
   margin-right: 5px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 960px) {
   #menu-topo label{
     display: block;
     height: 70px;
@@ -721,5 +721,7 @@ span.first-name {
   }
   #cloture span{
     text-align: center;
+    display: block;
+    margin-top: 10px;
   }
 }
