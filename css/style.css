@@ -26,7 +26,11 @@ h3 {
   text-align: center;
   color: #fff;
   font-weight: 100;
-  margin: 30px 0;
+  padding: 30px 0;
+}
+
+.section{
+  position: relative;
 }
 
 .flex-container {
@@ -36,29 +40,19 @@ h3 {
   flex-flow: row wrap;
 }
 
-#main {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  min-width:  1088px;
-  overflow-x: hidden;
-}
-
-#container {
+.container {
   overflow: hidden;
   margin: 0 auto;
 }
 
-#header {
+.header {
   height: 732px;
   background: #b2eced;
   margin-top: 70px;
   position: relative;
 }
 
-#menu-topo {
+.menu-top {
   position: fixed;
   left: 0;
   top: 0;
@@ -67,29 +61,29 @@ h3 {
   width: 100%;
   background: rgba(111, 218, 219, 0.9);
 }
-#menu-topo  label,
-#menu-topo  input{
+.menu-top  label,
+.menu-top  input{
   display: none;
 }
 
-#menu-topo .nav {
+.menu-top .nav {
   max-width: 960px;
   height: 100%;
   margin: 0 auto;
 }
 
-#menu-topo .nav .nav-ul {
+.menu-top .nav .nav-ul {
   height: 100%;
   text-align: center;
   list-style: none;
 }
 
-#menu-topo .nav .nav-ul li {
+.menu-top .nav .nav-ul li {
   height: 100%;
   display: inline-block;
 }
 
-#menu-topo .nav .nav-ul li a {
+.menu-top .nav .nav-ul li a {
   float: left;
   height: 100%;
   padding: 0 10px;
@@ -100,18 +94,18 @@ h3 {
   text-transform: uppercase;
 }
 
-#menu-topo .nav .nav-ul li a:hover{
+.menu-top .nav .nav-ul li a:hover{
   color: #fff;
   background: rgba(0,0,0,0.1);
 }
 
-#face {
+.face {
   position: absolute;
   right: 0;
   top: 0;
 }
 
-#face a{
+.face a{
   display: block;
   width: 70px;
   height: 70px;
@@ -123,24 +117,24 @@ h3 {
   font-weight: bold;
 }
 
-#openfab {
+.openfab {
   position: absolute;
   left: 0;
   top: 0;
 }
 
-#openfab a img{
+.openfab a img{
   padding: 10px;
 }
 
-#openfab a{
+.openfab a{
   display: block;
   width: 70px;
   height: 70px;
   background: #ffffff;
 }
 
-#logo-nejs {
+.logo-container {
   display: block;
   text-align: center;
   margin: 0 auto;
@@ -148,24 +142,24 @@ h3 {
   position: relative;
 }
 
-#logo-nejs .logo{
+.logo-container .logo{
   float: left;
   width: 100%;
   margin-top: 82px;
 }
 
-#logo-nejs span {
+.logo-container span {
   font-family: 'Slabo 27px', serif;
   font-size: 28px;
   margin-top: 75px;
 }
 
-#apropos {
+.apropos {
   padding-bottom: 45px;
   background: #309E8C;
 }
 
-#apropos p {
+.apropos p {
   display: block;
   margin: 0 auto;
   color: #fff;
@@ -175,11 +169,11 @@ h3 {
   max-width: 700px;
   text-align: center;
 }
-#apropos p a{
+.apropos p a{
   color: inherit;
   text-decoration: underline;
 }
-#apropos p strong{
+.apropos p strong{
   font-weight: bold;
 }
 
@@ -267,16 +261,16 @@ h3 {
   width: 97px;
 }
 
-#participer {
+.participer {
   padding-bottom: 45px;
   text-align: center;
 }
 
-#participer-h3 {
+.participer h3 {
   color: #666;
 }
 
-#participer .ct-img {
+.participer .ct-img {
   display: inline-block;
   width: 178px;
   margin: 0 50px;
@@ -284,56 +278,56 @@ h3 {
   font-weight: bold;
 }
 
-#participer .img {
+.participer .img {
   float: left;
   width: 175px;
   margin: 0 auto;
 }
 
-#participer span {
+.participer span {
   float: left;
   width: 100%;
   text-align: center;
 }
 
-#cloture {
+.cloture {
   background: #3fb29d;
   color: #fff;
 }
 
-#cloture .center-cloture {
+.cloture .center-cloture {
   margin: 0 auto;
   padding: 10px 0 30px 0;
   text-align: center;
 }
 
-#cloture img, hr, span {
+.cloture img, hr, span {
   display: inline-block;
   text-align: left;
   vertical-align: middle;
 }
 
-#cloture hr {
+.cloture hr {
   background: #fff;
   margin: 0 10px;
   height: 30px;
   width: 1px;
 }
 
-#cloture p {
+.cloture p {
   margin-bottom: 30px;
 }
-#cloture p a{
+.cloture p a{
   color: inherit;
   text-decoration: underline;
 }
 
-#dates {
+.dates {
   background: #4f5e70;
   height: 950px;
 }
 
-#dates .month {
+.dates .month {
   margin-top: 30px;
   height: 30px;
   width: 90px;
@@ -344,14 +338,14 @@ h3 {
   padding-top: 2px;
 }
 
-#dates .month.two {
+.dates .month.two {
   margin: 80px auto;
   border: 10px solid #4f5e70;
   box-sizing: content-box;
   position: relative;
 }
 
-#dates .lineP {
+.dates .lineP {
   position: absolute;
   margin-top: 192px;
   margin-left: 50%;
@@ -363,28 +357,28 @@ h3 {
   z-index: 0;
 }
 
-#dates .event {
+.dates .event {
   margin-left: -220px;
   height: 56px;
   margin-top: 10px;
 }
 
-#dates .event:nth-child(even){
+.dates .event:nth-child(even){
   margin-left: 0;
   margin-right: -220px;
 }
 
-#dates .event .text{
+.dates .event .text{
   height: 50px;
   width: 225px;
   float: left;
   padding: 0 20px;
 }
-#dates .event:nth-child(even) .text{
+.dates .event:nth-child(even) .text{
   float: right;
 }
 
-#dates .event .text .middle{
+.dates .event .text .middle{
   height: 50px;
   display: table-cell;
   vertical-align: middle;
@@ -394,7 +388,7 @@ h3 {
   width: 203px;
 }
 
-#dates .event .date{
+.dates .event .date{
   width: 50px;
   height: 50px;
   font-size: 15px;
@@ -407,22 +401,22 @@ h3 {
   color: #4f5e70;
   float: left;
 }
-#dates .event:nth-child(even) .date{
+.dates .event:nth-child(even) .date{
   float: right;
 }
 
-#dates .event .line {
+.dates .event .line {
   border: none;
   border-top: 2px solid #fff;
   width: 80px;
   margin: 25px 0 0;
   float: left;
 }
-#dates .event:nth-child(even) .line{
+.dates .event:nth-child(even) .line{
   float: right;
 }
 
-#dates .event .point {
+.dates .event .point {
   width: 15px;
   height: 15px;
   background: #70b19d;
@@ -432,22 +426,22 @@ h3 {
   margin: 18px 0 0 0;
   float: left;
 }
-#dates .event:nth-child(even) .point{
+.dates .event:nth-child(even) .point{
   float: right;
 }
 
-#inscription {
+.inscription {
   background: #477BC7;
   padding-bottom: 45px;
 }
 
-#inscription .ctBall {
+.inscription .ctBall {
   float: left;
   width: 100px;
   margin: 0px 30px;
 }
 
-#inscription .ball {
+.inscription .ball {
   margin: 10px;
   display: table;
   border-radius: 100px;
@@ -460,7 +454,7 @@ h3 {
   font-weight: bold;
 }
 
-#inscription .line.one {
+.inscription .line.one {
   position: absolute;
   left: 384px;
   width: 62px;
@@ -471,7 +465,7 @@ h3 {
   transform: rotate(-20deg);
 }
 
-#inscription .line.two {
+.inscription .line.two {
   position: absolute;
   left: 519px;
   width: 60px;
@@ -482,78 +476,78 @@ h3 {
   transform: rotate(15deg);
 }
 
-#inscription .middle {
+.inscription .middle {
   display: table-cell;
   vertical-align: middle;
 }
 
-#inscription .sign-center {
+.inscription .sign-center {
   margin: 0 auto;
   margin-bottom: 30px;
 }
 
-#reglement iframe{
+.reglement iframe{
   margin: auto;
   max-width: 100%;
 }
 
-#partenairs {
+.partenaires {
   padding-bottom: 45px;
   background: #f5f5f5;
 }
 
-#partenairs-div, #reglement-div {
+.partenaires > div, .reglement > div {
   text-align: center;
 }
 
-#partenairs-h3, #reglement-h3 {
+.partenaires h3, .reglement h3 {
   color: #666;
 }
 
-#partenairs .imgs {
+.partenaires .imgs {
   display: block;
   margin: 0 auto;
 }
 
-#partenairs .imgs > div {
+.partenaires .imgs > div {
   width: 150px;
   height: 60px;
   display: inline-block;
   margin: 0 24px;
 }
 
-#partenairs .imgs > a > img {
+.partenaires .imgs > a > img {
   width: 200px;
   padding: 10px;
   vertical-align: middle;
 }
 
-#jury {
+.jury {
   padding-bottom: 45px;
 }
 
-#jury-h3 {
+.jury h3 {
   color: #666;
 }
 
-#jury-person {
+.jury .person {
   display: block;
   text-align: center;
 }
 
-#jury-person .frame {
+.jury .person .frame {
   position: relative;
   display: inline-block;
   width: 231px;
   text-align: initial;
 }
 
-#jury-person .frame div.flex-container {
+.jury .person .frame div.flex-container {
   width: 50%;
   margin-top: 10px;
 }
 
-#jury-person .frame a {
+.jury .person .frame a {
   display: inline-block;
   width: 35px;
   height: 35px;
@@ -611,8 +605,14 @@ span.first-name {
   margin-right: 5px;
 }
 
+/* anchor-offset */
+.anchor-offset{
+  position: absolute;
+  top: -70px;
+}
+
 @media screen and (max-width: 960px) {
-  #menu-topo label{
+  .menu-top label{
     display: block;
     height: 70px;
     line-height: 70px;
@@ -624,21 +624,21 @@ span.first-name {
     text-align: center;
     cursor: pointer;
   }
-  #menu-topo .nav {
+  .menu-top .nav {
     background: inherit;
     height: auto;
     display: none;
   }
-  #menu-topo  input:checked + .nav{
+  .menu-top  input:checked + .nav{
     display: block;
   }
-  #menu-topo .nav .nav-ul{
+  .menu-top .nav .nav-ul{
     height: auto;
   }
-  #menu-topo .nav .nav-ul li{
+  .menu-top .nav .nav-ul li{
     display:block;
   }
-  #menu-topo .nav .nav-ul li a{
+  .menu-top .nav .nav-ul li a{
     display:block;
     float: none;
     line-height: 4;
@@ -648,78 +648,78 @@ span.first-name {
     font-size: 27px;
   }
 
-  #logo-nejs span {
+  .logo-container span {
     font-size: 18px;
     padding: 0 20px;
     text-align: center;
   }
   
-  #apropos p{
+  .apropos p{
     padding: 0 20px;
   }
   
-  #dates{
+  .dates{
     height: auto;
   } 
 
-  #dates .event {
+  .dates .event {
     margin-left: 0;
   }
 
-  #dates .event:nth-child(even) {
+  .dates .event:nth-child(even) {
     margin-right: 0;
   }
   
-  #dates .event,
-  #dates .event .text{
+  .dates .event,
+  .dates .event .text{
     height: auto;
     position: relative;
   }
-  #dates .event .date,
-  #dates .event:nth-child(even) .date,
-  #dates .event .text,
-  #dates .event:nth-child(even) .text{
+  .dates .event .date,
+  .dates .event:nth-child(even) .date,
+  .dates .event .text,
+  .dates .event:nth-child(even) .text{
     float: none;
   }
-  #dates .event .date{
+  .dates .event .date{
     position: absolute;
     top: 10px;
     left:50%;
     margin-left: -25px;
   }
-  #dates .event .text{
+  .dates .event .text{
     padding-top: 60px;
   }
   
-  #dates .event .line,
-  #dates .event .point  {
+  .dates .event .line,
+  .dates .event .point  {
     display: none;
   }
-  #dates .month.two{
+  .dates .month.two{
     margin: 40px auto;
     border: none;
   }
   
-  #dates .lineP {
+  .dates .lineP {
     display: none;
   }
   
-  #reglement-div{
+  .reglement > div{
     margin: 0 -60px;
   }
 
-  #reglement-div iframe{
+  .reglement iframe{
     height: 2200px;
   }
 
-  #inscription iframe{
+  .inscription iframe{
     height: 2200px;
   }
   
-  #cloture hr{
+  .cloture hr{
     display: none;
   }
-  #cloture span{
+  .cloture span{
     text-align: center;
     display: block;
     margin-top: 10px;

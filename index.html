@@ -16,270 +16,268 @@
     <link rel='stylesheet' href='css/style.css' type='text/css' />
   </head>
   <body>
-    <div id="container">
-      <header id='header'>
+    <div class="container">
+      <header class='header'>
 
-      <nav id='menu-topo'>
-      <label for="menu-mobile">Menu</label>
-      <input type="checkbox" id="menu-mobile" />
-      <div class='nav'>
-        <ul class='nav-ul'>
-          <li class='nav-item'><a href='#apropos'>À propos</a></li>
-          <li class='nav-item'><a href='#participer'>participer ?</a></li>
-          <li class='nav-item'><a href='#dates'>Dates Clés</a></li>
-          <li class='nav-item'><a href='#reglement'>Règlement</a></li>
-          <li class='nav-item'><a href='#inscription'>S'inscrire</a></li>
-          <li class='nav-item'><a href='#partenairs'>Partenaires</a></li>
-          <li class='nav-item'><a href='#jury'>Jury</a></li>
-          <li class='nav-item'><a href='#cloture'>Cloture</a></li>
-        </ul>
-      </div>
-      <div id='face'>
-        <a href='https://www.facebook.com/events/989581947799704/' target='_blank'>
-          <i class='fa fa-facebook'></i>
-        </a>
-      </div>
-      <div id='openfab'>
-        <a href='http://openfab.tn/evenement/iotitaah-challenge/' target='_blank'>
-          <img src="http://openfab.tn/wp-content/uploads/2015/02/openfab_tn-e1424371931281.png">
-        </a>
-      </div>
-      </nav>
+        <nav class='menu-top'>
+          <label for="menu-mobile">Menu</label>
+          <input type="checkbox" id="menu-mobile" />
+          <div class='nav' onclick="document.getElementById('menu-mobile').checked = false;">
+            <ul class='nav-ul'>
+              <li class='nav-item'><a href='#apropos'>À propos</a></li>
+              <li class='nav-item'><a href='#participer'>participer ?</a></li>
+              <li class='nav-item'><a href='#dates'>Dates Clés</a></li>
+              <li class='nav-item'><a href='#reglement'>Règlement</a></li>
+              <li class='nav-item'><a href='#inscription'>S'inscrire</a></li>
+              <li class='nav-item'><a href='#partenaires'>Partenaires</a></li>
+              <li class='nav-item'><a href='#jury'>Jury</a></li>
+              <li class='nav-item'><a href='#cloture'>Cloture</a></li>
+            </ul>
+          </div>
+          <div class='face'>
+            <a href='https://www.facebook.com/events/989581947799704/' target='_blank'>
+              <i class='fa fa-facebook'></i>
+            </a>
+          </div>
+          <div class='openfab'>
+            <a href='http://openfab.tn/evenement/iotitaah-challenge/' target='_blank'>
+              <img src="http://openfab.tn/wp-content/uploads/2015/02/openfab_tn-e1424371931281.png">
+            </a>
+          </div>
+        </nav>
 
-      <div id='logo-nejs'>
-        <div class='logo'>
-          <img src='img/logo.png' alt='logo'>
+        <div class='logo-container'>
+          <div class='logo'>
+            <img src='img/logo.png' alt='logo'>
+          </div>
+          <span>*Concours d’idées IoT avec pour thème le Morse Code - du 18 au 27 avril 2016</span>
         </div>
-        <span>*Concours d’idées IoT avec pour thème le Morse Code - du 18 au 27 avril 2016</span>
-      </div>
 
-      <div id='sun'></div>
-      <div id='clouds'></div>
-      <img id='newton-navarro' src='img/ponte.png'>
-      <img id='morro-careca' src='img/morro.png'>
-      <div id='sand'></div>
-      <div id='wave2'></div>
-      <img id='developer' src='img/developer.png'>
-      <div id='wave3'></div>
-      <div id='wave1'></div>
+        <div id='sun'></div>
+        <div id='clouds'></div>
+        <img id='bridge' src='img/ponte.png'>
+        <img id='morro-careca' src='img/morro.png'>
+        <div id='sand'></div>
+        <div id='wave2'></div>
+        <img id='developer' src='img/developer.png'>
+        <div id='wave3'></div>
+        <div id='wave1'></div>
 
       </header>
 
-      <section id='apropos' class="flex-container">
-      <div>
-        <h3>À propos</h3>
-        <p>
-        Dans le cadre du projet <a href="http://oshw.tn">Open Source Hardware Tunisia</a> et pour fêter la “<a href="http://iotday.org/">Global IoT Day</a>” (09/04) et la “<a href="http://geekdays.com/04/27/morse-code-day/">Morse Code Day</a>” (27/04), L’association <a href="http://openfab.tn">OpenFab Tunisia</a> organise, en collaboration avec l’<a href="http://freeways.tn">association Freeways</a> et <a href="http://fablab.jeunesscience.tn/">le Fablab Solidaire Jeunes Sciences de Tunisie</a>, un challenge <strong>IoT</strong> qui a pour thème le <strong>Morse Code</strong>.
-        </p>
-      </div>
+      <section class="section apropos flex-container">
+        <a id='apropos'  class="anchor-offset"></a>
+        <div>
+          <h3>À propos</h3>
+          <p>
+          Dans le cadre du projet <a href="http://oshw.tn">Open Source Hardware Tunisia</a> et pour fêter la “<a href="http://iotday.org/">Global IoT Day</a>” (09/04) et la “<a href="http://geekdays.com/04/27/morse-code-day/">Morse Code Day</a>” (27/04), L’association <a href="http://openfab.tn">OpenFab Tunisia</a> organise, en collaboration avec l’<a href="http://freeways.tn">association Freeways</a> et <a href="http://fablab.jeunesscience.tn/">le Fablab Solidaire Jeunes Sciences de Tunisie</a>, un challenge <strong>IoT</strong> qui a pour thème le <strong>Morse Code</strong>.
+          </p>
+        </div>
       </section>
 
-      <section id='participer'>
-      <h3 id='participer-h3'>Qui peut participer?</h3>
-      <div>
-        <div class='ct-img' data-sr="enter right move 200px, over 1s, reset">
-          <div class='img'>
-            <img alt="Designers" src='img/wanderley.png'>
+      <section class='participer'>
+        <a id='participer' class="anchor-offset"></a>
+        <div>
+          <h3>Qui peut participer?</h3>
+          <div class='ct-img' data-sr="enter right move 200px, over 1s, reset">
+            <div class='img'>
+              <img alt="Designers" src='img/wanderley.png'>
+            </div>
+          </div>
+          <div data-sr="enter left move 400px, over 1s, reset">
+            <h4>
+                La participation à ce Challenge est gratuite et ouverte à tout le monde sans exception,<br> par personne ou par équipe de 3 au maximum et sans aucune réstriction d’age.
+            </H4>
           </div>
         </div>
-
-        <div data-sr="enter left move 400px, over 1s, reset">
-          <h4>
-              La participation à ce Challenge est gratuite et ouverte à tout le monde sans exception,<br> par personne ou par équipe de 3 au maximum et sans aucune réstriction d’age.
-          </H4>
-        </div>
-
-      </div>
       </section> <!-- participer -->
 
-      <section id='dates' class="flex-container">
+      <section class="section dates flex-container">
+        <a id='dates' class="anchor-offset"></a>
+        <div class='lineP'></div>
+        <div>
+          <h3>Dates Clés</h3>
+          <div class='month'>Avril</div>
 
-      <div class='lineP'></div>
-      <div>
-        <h3>Dates Clés</h3>
-        <div class='month'>Avril</div>
+          <div class='event' data-sr="roll -10deg, scale up 20%, over 2s, reset">
+            <div class='text'>
+              <div class='middle'>
+                Annonce du Challenge
+              </div>
+            </div>
+            <div class='date' title="Annonce du Challenge">09/04</div>
+            <span class='line'></span>
+            <div class='point'></div>
+          </div>
 
-        <div class='event' data-sr="roll -10deg, scale up 20%, over 2s, reset">
-          <div class='text'>
-            <div class='middle'>
-              Annonce du Challenge
+          <div class='event' data-sr="roll 10deg, scale up 20%, over 2s, reset">
+            <div class='text'>
+              <div class='middle'>
+                Ouverture des Candidatures <br>(à partir de 08h00)
+              </div>
             </div>
+            <div class='date' title="Ouverture des Candidatures (à partir de 08h00)">18/04</div>
+            <span class='line'></span>
+            <div class='point'></div>
           </div>
-          <div class='date' title="Annonce du Challenge">09/04</div>
-          <span class='line'></span>
-          <div class='point'></div>
-        </div>
 
-        <div class='event' data-sr="roll 10deg, scale up 20%, over 2s, reset">
-          <div class='text'>
-            <div class='middle'>
-              Ouverture des Candidatures <br>(à partir de 08h00)
+          <div class='event' data-sr="roll -10deg, scale up 20%, over 2s, reset">
+            <div class='text'>
+              <div class='middle'>
+                Cloture des Candidatures <br>(jusqu'à 18h00)
+              </div>
             </div>
+            <div class='date' title="Cloture des Candidatures (jusqu'à 18h00)">27/04</div>
+            <span class='line'></span>
+            <div class='point'></div>
           </div>
-          <div class='date' title="Ouverture des Candidatures (à partir de 08h00)">18/04</div>
-          <span class='line'></span>
-          <div class='point'></div>
-        </div>
+          <div class='month two'>Mai</div>
+          <div class='event' data-sr="roll 10deg, scale up 20%, over 2s, reset">
+            <div class='text'>
+              <div class='middle'>
+                Cérémonie de Remise des Prix <br>(de 11h00 à 14h00)
+              </div>
+            </div>
+            <div class='date' title="Cérémonie de Remise des Prix">01/05</div>
+            <span class='line'></span>
+            <div class='point'></div>
+          </div>
 
-        <div class='event' data-sr="roll -10deg, scale up 20%, over 2s, reset">
-          <div class='text'>
-            <div class='middle'>
-              Cloture des Candidatures <br>(jusqu'à 18h00)
+          <div class='event' data-sr="roll -10deg, scale up 20%, over 2s, reset">
+            <div class='text'>
+              <div class='middle'>
+                Prototypage 1
+              </div>
             </div>
+            <div class='date' title="Prototypage 1">08/05</div>
+            <span class='line'></span>
+            <div class='point'></div>
           </div>
-          <div class='date' title="Cloture des Candidatures (jusqu'à 18h00)">27/04</div>
-          <span class='line'></span>
-          <div class='point'></div>
-        </div>
-        <div class='month two'>Mai</div>
-        <div class='event' data-sr="roll 10deg, scale up 20%, over 2s, reset">
-          <div class='text'>
-            <div class='middle'>
-              Cérémonie de Remise des Prix <br>(de 11h00 à 14h00)
-            </div>
-          </div>
-          <div class='date' title="Cérémonie de Remise des Prix">01/05</div>
-          <span class='line'></span>
-          <div class='point'></div>
-        </div>
 
-        <div class='event' data-sr="roll -10deg, scale up 20%, over 2s, reset">
-          <div class='text'>
-            <div class='middle'>
-              Prototypage 1
+          <div class='event' data-sr="roll 10deg, scale up 20%, over 2s, reset">
+            <div class='text'>
+              <div class='middle'>
+                Prototypage 2
+              </div>
             </div>
+            <div class='date' title="Prototypage 2">15/05</div>
+            <span class='line'></span>
+            <div class='point'></div>
           </div>
-          <div class='date' title="Prototypage 1">08/05</div>
-          <span class='line'></span>
-          <div class='point'></div>
-        </div>
+          <div class='event' data-sr="roll -10deg, scale up 20%, over 2s, reset">
+            <div class='text'>
+              <div class='middle'>
+                Prototypage 3
+              </div>
+            </div>
+            <div class='date' title="Prototypage 3">22/05</div>
+            <span class='line'></span>
+            <div class='point'></div>
+          </div>
+          <div class='event' data-sr="roll 10deg, scale up 20%, over 2s, reset">
+            <div class='text'>
+              <div class='middle'>
+                Prototypage 4
+              </div>
+            </div>
+            <div class='date' title="Prototypage 4">29/05</div>
+            <span class='line'></span>
+            <div class='point'></div>
+          </div>
 
-        <div class='event' data-sr="roll 10deg, scale up 20%, over 2s, reset">
-          <div class='text'>
-            <div class='middle'>
-              Prototypage 2
-            </div>
-          </div>
-          <div class='date' title="Prototypage 2">15/05</div>
-          <span class='line'></span>
-          <div class='point'></div>
         </div>
-        <div class='event' data-sr="roll -10deg, scale up 20%, over 2s, reset">
-          <div class='text'>
-            <div class='middle'>
-              Prototypage 3
-            </div>
-          </div>
-          <div class='date' title="Prototypage 3">22/05</div>
-          <span class='line'></span>
-          <div class='point'></div>
-        </div>
-        <div class='event' data-sr="roll 10deg, scale up 20%, over 2s, reset">
-          <div class='text'>
-            <div class='middle'>
-              Prototypage 4
-            </div>
-          </div>
-          <div class='date' title="Prototypage 4">29/05</div>
-          <span class='line'></span>
-          <div class='point'></div>
-        </div>
-
-      </div>
       </section>
-      <section id="reglement">
-      <div id="reglement-div">
-        <h3 id="reglement-h3">Règlement</h3>
-        <iframe src="https://docs.google.com/document/d/1yvP5nytUz_ovyoE2vfZRGIYQQdDcjt_SR590he8W2Jg/pub?embedded=true" width="800" height="1400" frameborder="0" marginheight="0" marginwidth="0">Chargement en cours...</iframe>
-      </div>
+      
+      <section class="section reglement">
+        <a id="reglement" class="anchor-offset"></a>
+        <div>
+          <h3>Règlement</h3>
+          <iframe src="https://docs.google.com/document/d/1yvP5nytUz_ovyoE2vfZRGIYQQdDcjt_SR590he8W2Jg/pub?embedded=true" width="800" height="1400" frameborder="0" marginheight="0" marginwidth="0">Chargement en cours...</iframe>
+        </div>
       </section>
-      <section id='inscription' class="flex-container">
+      
+      <section class="section inscription flex-container">
+        <a id='inscription' class="anchor-offset"></a>
         <h3>Inscrivez-vous maintenant!</h3>
         <iframe src="https://docs.google.com/forms/d/1XNCki3XWArQvzlqSlyQrQfvQFrCVmzubU3JAKzSIy7w/viewform?embedded=true" width="100%" height="1600" frameborder="0" marginheight="0" marginwidth="0">Chargement en cours...</iframe>
       </section>
 
-      <section id='partenairs' class="flex-container">
-      <div id="partenairs-div">
-        <h3 id='partenairs-h3'>Partenaires</h3>
-        <div class='imgs'>
-          <a href="http://www.freeways.tn/" target="_blank">
-            <img src='img/freeways.png' alt='Association Freeways'>
-          </a>
-          <a href="http://fablab.jeunesscience.tn/" target="_blank">
-            <img src='img/fablabjs.png' alt='FabLab ASJT'>
-          </a>
-      </div>
-      </section>
-
-      <section id='jury' class="flex-container">
-      <h3 id='jury-h3'>Jury</h3>
-      <div id="jury-person">
-
-
-        <div class='frame' data-sr="scale up 20%, over 0.7s, reset">
-          <div class="jury-img">
-            <img src="https://scontent-cdg2-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/185117_3880686295019_847752888_n.jpg?oh=b4c788139dc2068a779953f9f48e63eb&oe=577F5817" class="avatar"/>
-            <img src="img/moldura.png" class="moldura"/>
-            <div class="nome"><span class="first-name">Nada</span>Riahi</div>
-          </div>
-          <div class="flex-container">
-            <a href='' target='_blank'><i class='fa fa-facebook'></i></a>
-            <a href='' target='_blank'><i class='fa fa-github'></i></a>
-          </div>
-        </div>
-
-        <div class='frame' data-sr="scale up 20%, over 0.9s, reset">
-          <div class="jury-img">
-            <img src="https://scontent-cdg2-1.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12744316_10207921778579919_2682268198152889931_n.jpg?oh=a776ef30448096bbaa3e3b9d5a086b7d&oe=5776136D" class="avatar"/>
-            <img src="img/moldura.png" class="moldura"/>
-            <div class="nome"><span class="first-name">Naoufel</span>Razouane</div>
-          </div>
-          <div class="flex-container">
-            <a href='' target='_blank'><i class='fa fa-facebook'></i></a>
-            <a href='' target='_blank'><i class='fa fa-github'></i></a>
-          </div>
-        </div>
-
-
-        <div class='frame' data-sr="scale up 20%, over 1.3s, reset">
-          <div class="jury-img">
-            <img src="https://scontent-cdg2-1.xx.fbcdn.net/v/l/t1.0-9/155397_3158708930592_255741234_n.jpg?oh=c4486d5d094efe7edeb919e64b9d4ed4&oe=57B5D8C1" class="avatar"/>
-            <img src="img/moldura.png" class="moldura"/>
-            <div class="nome"><span class="first-name">Mortadha</span>Dahmani</div>
-          </div>
-          <div class="flex-container">
-            <a href='' target='_blank'><i class='fa fa-facebook'></i></a>
-            <a href='' target='_blank'><i class='fa fa-github'></i></a>
-          </div>
-        </div>
-
-      </div>
-      </section>
-
-      <section id='cloture'>
-      <div class='local'>
+      <section class="section partenaires flex-container">
+        <a id='partenaires' class="anchor-offset"></a>
         <div>
-          <div class='center-cloture'>
-            <h3>Cérémonie de cloture</h3>
-            <p>Pour assister à la cérémonie de cloture merci de confirmer par RSVP sur <a href="http://www.meetup.com/fr-FR/OpenFab-Tunisia/events/230255340/" target="_blank">Meetup</a></p> 
-            <img src='http://fablab.jeunesscience.tn/wp-content/uploads/2016/03/Sans-titre-3-copie-1.png' alt='IMD' width='150'>
-            <hr>
-            <span>
-              FabLab Solidaire - Jeunes Science <br>
-               69 Avenue Alain SAVARY Cité Khadra,1003 Tunis
-            </span>
+          <h3>Partenaires</h3>
+          <div class='imgs'>
+            <a href="http://www.freeways.tn/" target="_blank">
+              <img src='img/freeways.png' alt='Association Freeways'>
+            </a>
+            <a href="http://fablab.jeunesscience.tn/" target="_blank">
+              <img src='img/fablabjs.png' alt='FabLab ASJT'>
+            </a>
           </div>
         </div>
-      </div>
-
-      <div class='map'>
-        <iframe class="scrolloff" id="map-canvas"
-         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3193.495173750031!2d10.186556314836926!3d36.830615273687656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd349178ee59d1%3A0x4c90f909471eff4c!2sFabLab+Solidaire!5e0!3m2!1sfr!2ssa!4v1460415300036" width="100%" height="300px" frameborder="0" style="border:0"></iframe>
-      </div>
       </section>
 
-      <footer>
-      <!-- TODO -->
+      <section class="section jury flex-container">
+        <a id='jury' class="anchor-offset"></a>
+        <h3>Jury</h3>
+        <div class="person">
+          <div class='frame' data-sr="scale up 20%, over 0.7s, reset">
+            <div class="jury-img">
+              <img src="https://scontent-cdg2-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/185117_3880686295019_847752888_n.jpg?oh=b4c788139dc2068a779953f9f48e63eb&oe=577F5817" class="avatar"/>
+              <img src="img/moldura.png" class="moldura"/>
+              <div class="nome"><span class="first-name">Nada</span>Riahi</div>
+            </div>
+            <div class="flex-container">
+              <a href='' target='_blank'><i class='fa fa-facebook'></i></a>
+              <a href='' target='_blank'><i class='fa fa-github'></i></a>
+            </div>
+          </div>
+          <div class='frame' data-sr="scale up 20%, over 0.9s, reset">
+            <div class="jury-img">
+              <img src="https://scontent-cdg2-1.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12744316_10207921778579919_2682268198152889931_n.jpg?oh=a776ef30448096bbaa3e3b9d5a086b7d&oe=5776136D" class="avatar"/>
+              <img src="img/moldura.png" class="moldura"/>
+              <div class="nome"><span class="first-name">Naoufel</span>Razouane</div>
+            </div>
+            <div class="flex-container">
+              <a href='' target='_blank'><i class='fa fa-facebook'></i></a>
+              <a href='' target='_blank'><i class='fa fa-github'></i></a>
+            </div>
+          </div>
+          <div class='frame' data-sr="scale up 20%, over 1.3s, reset">
+            <div class="jury-img">
+              <img src="https://scontent-cdg2-1.xx.fbcdn.net/v/l/t1.0-9/155397_3158708930592_255741234_n.jpg?oh=c4486d5d094efe7edeb919e64b9d4ed4&oe=57B5D8C1" class="avatar"/>
+              <img src="img/moldura.png" class="moldura"/>
+              <div class="nome"><span class="first-name">Mortadha</span>Dahmani</div>
+            </div>
+            <div class="flex-container">
+              <a href='' target='_blank'><i class='fa fa-facebook'></i></a>
+              <a href='' target='_blank'><i class='fa fa-github'></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class='section cloture'>
+        <a id='cloture' class="anchor-offset"></a>
+        <div class='local'>
+          <div>
+            <div class='center-cloture'>
+              <h3>Cérémonie de cloture</h3>
+              <p>Pour assister à la cérémonie de cloture merci de confirmer par RSVP sur <a href="http://www.meetup.com/fr-FR/OpenFab-Tunisia/events/230255340/" target="_blank">Meetup</a></p> 
+              <img src='http://fablab.jeunesscience.tn/wp-content/uploads/2016/03/Sans-titre-3-copie-1.png' alt='IMD' width='150'>
+              <hr>
+              <span>
+                FabLab Solidaire - Jeunes Science <br>
+                 69 Avenue Alain SAVARY Cité Khadra,1003 Tunis
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class='map'>
+          <iframe class="scrolloff" id="map-canvas"
+           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3193.495173750031!2d10.186556314836926!3d36.830615273687656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd349178ee59d1%3A0x4c90f909471eff4c!2sFabLab+Solidaire!5e0!3m2!1sfr!2ssa!4v1460415300036" width="100%" height="300px" frameborder="0" style="border:0"></iframe>
+        </div>
       </footer>
 
     </div>
