@@ -347,20 +347,21 @@ h3 {
 }
 
 #chronogram .event {
-  margin-left: -150px;
+  margin-left: -220px;
   height: 56px;
   margin-top: 10px;
 }
 
 #chronogram .event:nth-child(even){
   margin-left: 0;
-  margin-right: -150px;
+  margin-right: -220px;
 }
 
 #chronogram .event .text{
   height: 50px;
   width: 203px;
   float: left;
+  padding: 0 20px;
 }
 #chronogram .event:nth-child(even) .text{
   float: right;
