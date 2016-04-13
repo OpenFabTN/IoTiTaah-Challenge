@@ -316,7 +316,7 @@ h3 {
   height: 950px;
 }
 
-#chronogram .day {
+#chronogram .month {
   margin-top: 30px;
   height: 30px;
   width: 90px;
@@ -327,7 +327,7 @@ h3 {
   padding-top: 2px;
 }
 
-#chronogram .day.two {
+#chronogram .month.two {
   margin: 80px auto;
 }
 
@@ -373,7 +373,7 @@ h3 {
   width: 203px;
 }
 
-#chronogram .event .hour{
+#chronogram .event .date{
   width: 50px;
   height: 50px;
   font-size: 15px;
@@ -386,7 +386,7 @@ h3 {
   color: #4f5e70;
   float: left;
 }
-#chronogram .event:nth-child(even) .hour{
+#chronogram .event:nth-child(even) .date{
   float: right;
 }
 
