@@ -696,12 +696,12 @@ span.first-name {
     display: none;
   }
   #dates .month.two{
-    margin: 30px auto;
+    margin: 40px auto;
+    border: none;
   }
   
   #dates .lineP {
-    margin-top: 164px;
-    height: 700px;
+    display: none;
   }
   
   #reglement-div{
