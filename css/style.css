@@ -156,12 +156,12 @@ h3 {
   margin-top: 54px;
 }
 
-#about {
+#apropos {
   padding-bottom: 45px;
   background: #309E8C;
 }
 
-#about p {
+#apropos p {
     display: block;
     margin: 0 auto;
     color: #fff;
@@ -257,16 +257,16 @@ h3 {
   width: 97px;
 }
 
-#participants {
+#participer {
   padding-bottom: 45px;
   text-align: center;
 }
 
-#participants-h3 {
+#participer-h3 {
   color: #666;
 }
 
-#participants .ct-img {
+#participer .ct-img {
   display: inline-block;
   width: 178px;
   margin: 0 50px;
@@ -274,49 +274,49 @@ h3 {
   font-weight: bold;
 }
 
-#participants .img {
+#participer .img {
   float: left;
   width: 175px;
   margin: 0 auto;
 }
 
-#participants span {
+#participer span {
   float: left;
   width: 100%;
   text-align: center;
 }
 
-#place {
+#cloture {
   background: #3fb29d;
 }
 
-#place .center-place {
+#cloture .center-cloture {
   margin: 0 auto;
   padding: 10px 0 30px 0;
   text-align: center;
 }
 
-#place img, hr, span {
+#cloture img, hr, span {
   display: inline-block;
 }
 
-#place hr {
+#cloture hr {
   background: #fff;
   margin: 0 10px;
   height: 30px;
   width: 1px;
 }
 
-#place span {
+#cloture span {
   color: #fff;
 }
 
-#chronogram {
+#dates {
   background: #4f5e70;
   height: 950px;
 }
 
-#chronogram .month {
+#dates .month {
   margin-top: 30px;
   height: 30px;
   width: 90px;
@@ -327,14 +327,14 @@ h3 {
   padding-top: 2px;
 }
 
-#chronogram .month.two {
+#dates .month.two {
   margin: 80px auto;
   border: 10px solid #4f5e70;
   box-sizing: content-box;
   position: relative;
 }
 
-#chronogram .lineP {
+#dates .lineP {
   position: absolute;
   margin-top: 192px;
   margin-left: 50%;
@@ -346,28 +346,28 @@ h3 {
   z-index: 0;
 }
 
-#chronogram .event {
+#dates .event {
   margin-left: -220px;
   height: 56px;
   margin-top: 10px;
 }
 
-#chronogram .event:nth-child(even){
+#dates .event:nth-child(even){
   margin-left: 0;
   margin-right: -220px;
 }
 
-#chronogram .event .text{
+#dates .event .text{
   height: 50px;
   width: 203px;
   float: left;
   padding: 0 20px;
 }
-#chronogram .event:nth-child(even) .text{
+#dates .event:nth-child(even) .text{
   float: right;
 }
 
-#chronogram .event .text .middle{
+#dates .event .text .middle{
   height: 50px;
   display: table-cell;
   vertical-align: middle;
@@ -377,7 +377,7 @@ h3 {
   width: 203px;
 }
 
-#chronogram .event .date{
+#dates .event .date{
   width: 50px;
   height: 50px;
   font-size: 15px;
@@ -390,22 +390,22 @@ h3 {
   color: #4f5e70;
   float: left;
 }
-#chronogram .event:nth-child(even) .date{
+#dates .event:nth-child(even) .date{
   float: right;
 }
 
-#chronogram .event .line {
+#dates .event .line {
   border: none;
   border-top: 2px solid #fff;
   width: 80px;
   margin: 25px 0 0;
   float: left;
 }
-#chronogram .event:nth-child(even) .line{
+#dates .event:nth-child(even) .line{
   float: right;
 }
 
-#chronogram .event .point {
+#dates .event .point {
   width: 15px;
   height: 15px;
   background: #70b19d;
@@ -415,7 +415,7 @@ h3 {
   margin: 18px 0 0 0;
   float: left;
 }
-#chronogram .event:nth-child(even) .point{
+#dates .event:nth-child(even) .point{
   float: right;
 }
 
@@ -490,63 +490,63 @@ h3 {
   margin-bottom: 30px;
 }
 
-#sponsors {
+#partenairs {
   padding-bottom: 45px;
   background: #f5f5f5;
 }
 
-#sponsors-div, #campaign-div {
+#partenairs-div, #campaign-div {
   text-align: center;
 }
 
-#sponsors-h3, #campaign-h3 {
+#partenairs-h3, #campaign-h3 {
   color: #666;
 }
 
-#sponsors .imgs {
+#partenairs .imgs {
   display: block;
   margin: 0 auto;
 }
 
-#sponsors .imgs > div {
+#partenairs .imgs > div {
   width: 150px;
   height: 60px;
   display: inline-block;
   margin: 0 24px;
 }
 
-#sponsors .imgs > a > img {
+#partenairs .imgs > a > img {
   width: 200px;
   padding: 10px;
   vertical-align: middle;
 }
 
-#organizers {
+#jury {
   padding-bottom: 45px;
 }
 
-#organizers-h3 {
+#jury-h3 {
   color: #666;
 }
 
-#organizers-person {
+#jury-person {
   display: block;
   text-align: center;
 }
 
-#organizers-person .frame {
+#jury-person .frame {
   position: relative;
   display: inline-block;
   width: 231px;
   text-align: initial;
 }
 
-#organizers-person .frame div.flex-container {
+#jury-person .frame div.flex-container {
   width: 50%;
   margin-top: 10px;
 }
 
-#organizers-person .frame a {
+#jury-person .frame a {
   display: inline-block;
   width: 35px;
   height: 35px;
@@ -564,14 +564,14 @@ h3 {
   pointer-events: none;
 }
 
-.organizers-img {
+.jury-img {
   width: 231px;
   height: 221px;
   position: relative;
   overflow: hidden;
 }
 
-.organizers-img img.avatar {
+.jury-img img.avatar {
   position: absolute;
   width: 231px;
   height: 231px;
@@ -580,14 +580,14 @@ h3 {
   filter: grayscale(1); /* W3C */
 }
 
-.organizers-img .moldura {
+.jury-img .moldura {
   position: absolute;
   width: 100%;
   height: 100%;
   background-image: url(../img/moldura.png);
 }
 
-.organizers-img .nome {
+.jury-img .nome {
   position: absolute;
   width: 100%;
   height: 35px;
@@ -613,16 +613,16 @@ span.first-name {
     font-size: 18px;
   }
 
-  #chronogram .event {
+  #dates .event {
     margin-left: -2px;
   }
 
-  #chronogram .event:nth-child(even) {
+  #dates .event:nth-child(even) {
     margin-left: 0;
     margin-right: -5px;
   }
   
-  #chronogram .event .text {
+  #dates .event .text {
     display: none;
   }
 
@@ -630,7 +630,7 @@ span.first-name {
     font-size: 27px;
   }
 
-  #chronogram .lineP {
+  #dates .lineP {
     margin-top: 164px;
     height: 700px;
   }
