@@ -552,13 +552,15 @@ h3 {
   width: 35px;
   height: 35px;
   line-height: 35px;
-  font-size: 30px;
+  font-size: 25px;
   background: #455E70;
   color: #fff;
-  padding-top: 3px;
+  padding-top: 1px;
   text-align: center;
   font-weight: bold;
-  left: -40px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 .scrolloff {
