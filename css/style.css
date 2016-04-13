@@ -329,6 +329,9 @@ h3 {
 
 #chronogram .month.two {
   margin: 80px auto;
+  border: 10px solid #4f5e70;
+  box-sizing: content-box;
+  position: relative;
 }
 
 #chronogram .lineP {
